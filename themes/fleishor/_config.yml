@@ -1,0 +1,17 @@
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about.html
+  Contact: /contact.html
+
+# Post
+default_post_title: Untitled
+default_post_icon: fa-file-text-o
+
+# Archive Date Format
+archive_date_format: MMM YYYY
+archive_font_awesome_icon_css: fa-folder-open

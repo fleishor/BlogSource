@@ -1,0 +1,9 @@
+<!-- _partial/widget-tags.ejs -->
+<div class="mt5 tc tl-l">
+    <h3><%- __('tags') %></h3>
+    <% item.tags.forEach(function(tag) { %>
+        <p>
+            <a class="fw3 ph1 dib" href="<%- config.root + tag.path %>"><%= tag.name %></a>
+        </p>
+    <% }) %>
+</div>
