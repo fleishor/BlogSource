@@ -4,13 +4,13 @@
         <div class="dtc v-mid w-90 black-70">
             <div>
                 <% if(item.date) { %>
-                    <span class="f5 fw3 lh-copy pr4"><%= item.date.format(config.date_format) %></span> 
+                    <span class="f7 fw3 lh-copy pr4"><%= item.date.format(config.date_format) %></span> 
                 <% } %>
                 <% if (item.tags && item.tags.length) {
                     var tags = [];
                     item.tags.forEach(function(tag) {
                         <!-- Need to use JS to handle link click to avoid display issues. Best to put here than outer div for SEO. -->
-                        tags.push('<span class="fake-link fw3 ph1 dib" onclick="location.href = \'' + config.root + tag.path + '\'; return false;">#' + tag.name + '</span>');
+                        tags.push('<span class="f7 fake-link fw3 ph1 dib" onclick="location.href = \'' + config.root + tag.path + '\'; return false;">#' + tag.name + '</span>');
                     });
                 %>
                 <%- tags.join(' ') %>

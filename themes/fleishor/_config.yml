@@ -1,12 +1,8 @@
-
 # Header
 menu:
   Home: /
   Archives: /archives
-  Tags: /tags
-  Categories: /categories
   About: /about.html
-  Contact: /contact.html
 
 # Post
 default_post_title: Untitled
