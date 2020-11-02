@@ -98,7 +98,8 @@ theme: fleishor
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/fleishor/fleishor.github.io
 
 cookieconsent:
   enable: true
